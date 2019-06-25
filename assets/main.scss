@@ -1,0 +1,400 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+@import "youtube.css";
+
+$page-width: 850px;
+$mobile-width: 480px;
+$tablet-width: 768px;
+$computer-width: 1024px;
+
+$spacing-unit: 30px !default;
+$grey-color: #828282 !default;
+$grey-color-light: lighten($grey-color, 40%) !default;
+$base-font-size: 1.1rem;
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300italc,400,400italic,500,700);
+@import url(https://fonts.googleapis.com/css?family=Vollkorn:400,400i,600);
+
+html {
+  font: 18px/1.6 'Open Sans', sans-serif;
+}
+
+@media (max-width: $mobile-width) {
+  html { font: 17px/1.6 'Open Sans', sans-serif; }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-rendering: optimizeLegibility;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  margin: 0 0 0.5rem 0rem /* align left edge */;
+}
+
+a {
+  color: #e00;
+}
+
+table {
+  border-collapse: collapse;
+}
+th, td {
+  padding-right: 1.5rem;
+  padding-left: 2rem;
+  padding-bottom: 0.2rem;
+  padding-top: 0.2rem;
+  text-align: left;
+
+  &:first-child {
+    padding-left: 0;
+    font-style: italic;
+  }
+  &:last-child {
+    padding-right: 0.5rem;
+  }
+}
+
+h1 {
+  font-family: 'Vollkorn', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+
+h1 a, h2 a, h3 a {
+  text-decoration: none;
+  color: inherit;
+
+  &:hover {
+    text-decoration: underline;
+    color: #e00;
+  }
+}
+
+@media (min-width: $mobile-width) {
+  h1 {
+    font-size: 4rem;
+  }
+}
+
+h2 {
+  margin-top: 2rem;
+  font-size: 1.75rem;
+  border-bottom: 1px solid #dddddd;
+}
+
+
+@media (min-width: $mobile-width) {
+  h2 {
+    font-size: 1.75rem;
+  }
+}
+
+header.site-header {
+  margin-top: 3rem;
+
+  .wrapper {
+    max-width: $page-width;
+    margin: 0 auto;
+    padding: 0 0.5rem;
+
+    @include clearfix;
+  }
+
+  h1 {
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+    line-height: 1.1;
+  }
+}
+
+footer.site-footer {
+  border-top: 1px solid #ddd;
+
+  .wrapper {
+    max-width: $page-width;
+    margin: 0 auto;
+  }
+
+  ul.social-media-list {
+    list-style: none;
+    display: block;
+    float: left;
+    padding-left: 0.5rem;
+    li {
+      float: left;
+      display: inline;
+      &:first-of-type { margin-left: 0 }
+      &:last-of-type { margin-right: 0 }
+      a {
+        display: inline-block;
+        padding: $spacing-unit / 4;
+      }
+      &:hover .svg-icon { fill: currentColor; }
+    }
+  }
+
+  .svg-icon {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    padding: 8px;
+    vertical-align: text-bottom;
+    text-align: center;
+    border-radius: 16px;
+    background-color: #ddd;
+  }
+}
+
+main.page-content {
+  .wrapper {
+    max-width: $page-width;
+    margin: 0rem auto;
+
+    @media (min-width: $computer-width) {
+      margin-top: 2.5rem;
+    }
+
+    .home {
+      margin: 0.5rem;
+      line-height: 1.5;
+      font-size: $base-font-size;
+    }
+
+    .page {
+      margin: 0.5rem;
+      line-height: 1.5;
+      font-size: $base-font-size;
+
+      h3 {
+        font-weight: 600;
+        margin-top: 1.5rem;
+        font-size: 1.6rem;
+
+        .side-note {
+          font-weight: 400;
+          color: #555;
+          white-space: nowrap;
+          font-size: 1.5rem;
+
+          &.date {
+            font-style: italic;
+            font-size: 1.3rem;
+          }
+        }
+      }
+    }
+  }
+
+  .profile {
+    font-weight: 600;
+  }
+
+  .avatar {
+    padding: 0;
+    margin-right: 2rem;
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+    float: right;
+    border-style: solid;
+    border-color: #888;
+    border-width: 5px;
+
+    img {
+      vertical-align: middle;
+      border-style: solid;
+      border-color: #555;
+      border-width: 2px;
+    }
+
+    @media (max-width: $mobile-width) {
+      float: none;
+      border: 0;
+      margin: 1.5rem 0;
+
+      img {
+        margin: 0 auto;
+        border: 0;
+        max-width: 100%;
+        display: block;
+      }
+    }
+  }
+
+  .presentation {
+    overflow: auto;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+
+    .video {
+      float: left;
+      width: 50%;
+    }
+
+    .slides {
+      float: left;
+      width: 50%;
+
+      img {
+        width: 100%;
+        vertical-align: middle;
+      }
+    }
+
+    .box {
+      margin: 5px;
+      border: 1px solid #ddd;
+      box-shadow: 4px 4px 5px #ddd;
+    }
+
+    @media (max-width: $tablet-width) {
+      .video {
+        width: 100%;
+      }
+
+      .slides {
+        display: none;
+      }
+    }
+  }
+}
+
+nav.site-nav {
+  ul {
+    margin: 1rem 0 0 0;
+    padding: 0;
+    font-size: 0px;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+  }
+
+  li.nav-item {
+    vertical-align: top;
+    margin: 0;
+    padding: 2px 0 0 0;
+    display: inline-block;
+    transition: padding 0.08s ease-out;
+    text-align: center;
+
+    @media (max-width: $tablet-width) {
+      padding-top: 0;
+    }
+
+    a {
+      border: 1px solid #222;
+      box-shadow: 1px 1px #888, 2px 2px #888, 3px 3px #888, 4px 4px #888, 5px 5px #888;
+      padding: 2px 25px;
+      background-color: #ffffff;
+      display: block;
+
+      text-decoration: none;
+      font-size: $base-font-size;
+      font-weight: 600;
+      color: #222222;
+      margin-right: -1px;
+
+      white-space: nowrap;
+    }
+
+    &:first-child a {
+      border-width: 1px;
+    }
+
+    &.active a {
+      background-color: #e00;
+      border-color: #000;
+      color: #fff;
+    }
+
+    &:not(.active):hover {
+      @media (min-width: $tablet-width) {
+        padding-top: 0;
+        padding-bottom: 2px;
+      }
+      cursor: pointer;
+      a {
+        background-color: #e00;
+        color: #fff;
+      }
+    }
+  }
+
+  @media (max-width: $tablet-width - 1px) {
+    ul {
+      border: 5px solid #ddd;
+      position: absolute;
+      top: 36px;
+      right: 15px;
+      width: 150px;
+
+      li.nav-item {
+        display: block;
+        float: right;
+        width: 100%;
+
+        a {
+          box-shadow: none;
+          border: none;
+          background-color: #ddd;
+        }
+      }
+    }
+  }
+
+  .menu-icon {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 36px;
+    height: 26px;
+    line-height: 0;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #ddd;
+  }
+
+  .nav-trigger {
+    display: none;
+  }
+
+  input ~ .trigger {
+    clear: both;
+    display: none;
+  }
+
+  input:checked ~ .trigger {
+    display: block;
+  }
+
+  @media (min-width: $tablet-width) {
+    label[for="nav-trigger"] {
+      display: none;
+    }
+
+    .menu-icon {
+      display: none;
+    }
+
+    input ~ .trigger {
+      display: block;
+    }
+  }
+}
+
+ul.recent {
+  list-style-type: circle;
+
+  li {
+    span.date {
+      font-style: italic;
+      color: #222222;
+    }
+  }
+}
