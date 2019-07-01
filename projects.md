@@ -8,7 +8,7 @@ As well as being an active <a href="https://github.com/shioyama"
 target="_blank">contributor</a> to well-known open-source projects, I am also
 the author and maintainer of a number of libraries of my own.
 
-### <a name="mobility" /> Mobility
+### Mobility
 
 [Mobility](https://github.com/shioyama/mobility) is a library for storing translations of a model in a Ruby
 application, for example translations of posts in a blog. It provides a

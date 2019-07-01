@@ -35,7 +35,7 @@ and may be available here for on-site consulting, but generally I work
 remote. I can join a team, work independently, or collaborate across groups
 or between companies.
 
-### <a name="what-i-can-do-for-you"/> What I can do for you
+### What I can do for you
 
 Some of the areas I can offer value to teams and companies:
 
@@ -60,7 +60,7 @@ like you, please reach out and [let's talk](mailto:{{ site.email }}).
 - E-commerce and logistics
 - Internationalization and localization, translation management
 
-### <a name="contact"/> Contact
+### Contact
 
 Please feel free to [contact me](mailto:{{ site.email }})
 with any questions or to discuss details.

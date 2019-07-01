@@ -43,7 +43,7 @@ understand.
 I'm available for speaking opportunities, [get in touch](mailto:{{ site.email }}) if you
 think I might fit the bill.
 
-### <a name="the-elusive-attribute"/>The Elusive Attribute <span class="side-note">@ RailsConf 2019</span>
+### The Elusive Attribute <span class="side-note">@ RailsConf 2019</span> {#the-elusive-attribute}
 
 Ruby on Rails is famous for its “magic”, but there is very little out there
 explaining how that magic actually works under the hood. In this talk <a
@@ -56,7 +56,7 @@ basic elements of Rails: its **attributes**.
   slides-url="https://speakerdeck.com/shioyama/the-elusive-attribute"
   slides-img="the-elusive-attribute.png" %}
 
-### <a name="building-generic-software"/>Building Generic Software <span class="side-note">@ RubyConf 2018</span>
+### Building Generic Software <span class="side-note">@ RubyConf 2018</span> {#building-generic-software}
 
 In this presentation <a
 href="https://rubyconf.org/2018/program.html#session-715" target="_blank">given
@@ -69,7 +69,7 @@ The framework ends up being a simplified version of [Mobility](/projects#mobilit
   slides-url="https://speakerdeck.com/shioyama/building-generic-software"
   slides-img="building-generic-software.png" %}
 
-### <a name="metaprogramming-for-generalists"/>Metaprogramming For Generalists <span class="side-note">@ EuRuKo 2018</span>
+### Metaprogramming For Generalists <span class="side-note">@ EuRuKo 2018</span> {#metaprogramming-for-generalists}
 
 Metaprogramming is the machinery that enables Ruby's diverse gem ecosystem, its
 intuitive DSLs, and its flexible frameworks. But it is also demonized and
@@ -84,7 +84,7 @@ on every day.
   slides-url="https://speakerdeck.com/shioyama/metaprogramming-for-generalists"
   slides-img="metaprogramming-for-generalists.png" %}
 
-### <a name="the-ruby-module-builder-pattern"/>The Ruby Module Builder Pattern <span class="side-note">@ RubyKaigi 2017</span>
+### The Ruby Module Builder Pattern <span class="side-note">@ RubyKaigi 2017</span> {#the-ruby-module-builder-pattern}
 
 Did you know that Ruby has configurable modules? One of the most interesting
 features of Ruby, the Module Builder Pattern is also probably its least
