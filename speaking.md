@@ -52,6 +52,7 @@ gave at RailsConf 2019</a>, I pick apart the magic underlying one of the most
 basic elements of Rails: its **attributes**.
 
 {% include presentation.html
+  title="The Elusive Attribute"
   youtube-id="PNNrmNTQx2s"
   slides-url="https://speakerdeck.com/shioyama/the-elusive-attribute"
   slides-img="the-elusive-attribute.png" %}
@@ -65,6 +66,7 @@ through an example where we walk through the steps of building a framework.
 The framework ends up being a simplified version of [Mobility](/projects#mobility).
 
 {% include presentation.html
+  title="Building Generic Software"
   youtube-id="RZkemV_-__A"
   slides-url="https://speakerdeck.com/shioyama/building-generic-software"
   slides-img="building-generic-software.png" %}
@@ -79,6 +81,7 @@ metaprogramming is so important for building the generic components we depend
 on every day.
 
 {% include presentation.html
+  title="Metaprogramming for Generalists"
   youtube-id="1fIlcnrJHxs"
   youtube-start="290"
   slides-url="https://speakerdeck.com/shioyama/metaprogramming-for-generalists"
@@ -94,6 +97,7 @@ target="_blank">given at RubyKaigi 2017</a>, I explain this powerful
 feature through simple, concrete examples.
 
 {% include presentation.html
+  title="The Ruby Module Builder Pattern"
   youtube-id="_E1yKPC-r1E"
   slides-url="https://speakerdeck.com/shioyama/the-ruby-module-builder-pattern"
   slides-img="the-ruby-module-builder-pattern.png" %}

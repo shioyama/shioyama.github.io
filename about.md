@@ -14,7 +14,7 @@ quality code and quality communication, and see the two as intimately related.
 </div>
 
 <div class="avatar">
-<img src="/assets/chrissalzberg-c64.png">
+<img src="/assets/chrissalzberg-c64.png" alt="Photo of Chris Salzberg">
 </div>
 
 A Canadian originally from Montreal, I first came to Japan as a researcher
