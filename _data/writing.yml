@@ -1,11 +1,11 @@
 - date: 2018/5/30
   title: Arel with Wharel
   details: Introduces <a href="https://github.com/shioyama/wharel" target="_blank">Wharel</a>, a tiny little gem that uses the empty room pattern to make Arel queries easier to build.
-  url: https://dejimata.com/2017/5/20/the-ruby-module-builder-pattern
+  url: https://dejimata.com/2018/5/30/arel-with-wharel
 - date: 2017/5/20
   title: The Ruby Module Builder Pattern
   details: Learn about a powerful Ruby pattern for building on-the-fly customizable modules. <em>(Covered on <a href="https://news.ycombinator.com/item?id=14386723" target="_blank">Hacker News</a> and <a href="https://rubykaigi.org/2017/presentations/shioyama.html" target="_blank">presented at RubyKaigi 2017</a>.)</em>
-  url: https://dejimata.com/2018/5/30/arel-with-wharel
+  url: https://dejimata.com/2017/5/20/the-ruby-module-builder-pattern
 - date: 2017/3/3
   title: Translating with Mobility
   details: A review of translation strategies and introduction to <a href="https://github.com/shioyama/mobility" target="_blank">Mobility</a>, a translation framework for Ruby.
@@ -13,4 +13,4 @@
 - date: 2014/4/17
   title: Debugging Spree
   details: Join me down a rabbit hole into the gory internals of Ruby's most popular e-commerce library, Spree.
-  url: https://dejimata.com/2017/3/3/translating-with-mobility
+  url: https://dejimata.com/2014/4/17/debugging-spree
