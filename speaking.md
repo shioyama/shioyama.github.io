@@ -80,6 +80,8 @@ target="_blank">I gave at EuRuKo 2018</a> in Vienna, Austria, I explain why
 metaprogramming is so important for building the generic components we depend
 on every day.
 
+*(See also the [transcript of this talk](https://dejimata.com/2018/8/23/transcript-of-my-euruko-2018-talk).)*
+
 {% include presentation.html
   title="Metaprogramming for Generalists"
   youtube-id="1fIlcnrJHxs"
