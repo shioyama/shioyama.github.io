@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/shioyama
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://chrissalzberg.com
+  * I am shioyama (https://keybase.io/shioyama) on keybase.
+  * I have a public key ASCdFFAduowUMfL1VWpiW8FOQVaqd21fHcKT6cFIAMLFfwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01209d14501dba8c1431f2f5556a625bc14e4156aa776d5f1dc293e9c14800c2c57f0a",
+      "host": "keybase.io",
+      "kid": "01209d14501dba8c1431f2f5556a625bc14e4156aa776d5f1dc293e9c14800c2c57f0a",
+      "uid": "4d76ab884d705675a2b2f5fca9247119",
+      "username": "shioyama"
+    },
+    "merkle_root": {
+      "ctime": 1563454634,
+      "hash": "f09f4642265e9ad5bfbb89164aac69106477f9375b5c536a2ce6b832bdba8102e67c8b70b4e629af526a100b5981262930b2a10798b4552cfee467b174434250",
+      "hash_meta": "5ae21a843bd0614f91daa58b2e34e9413d9924c64b056a25c87320feb4a3cdde",
+      "seqno": 5789871
+    },
+    "service": {
+      "entropy": "+VPOY6FnLKi60w+AAJphBX49",
+      "hostname": "chrissalzberg.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.0.0"
+  },
+  "ctime": 1563454645,
+  "expire_in": 504576000,
+  "prev": "f70bd762a04cede86b70f8145e234aaca695408c0a4e1e87ff57ddf823b880ac",
+  "seqno": 18,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgnRRQHbqMFDHy9VVqYlvBTkFWqndtXx3Ck+nBSADCxX8Kp3BheWxvYWTESpcCEsQg9wvXYqBM7ehrcPgUXiNKrKaVQIwKTh6H/1fd+CO4gKzEIBcRNzqD+RbohSgq3dzrmzcvdROyyg20JvRnzFIgZ7c1AgHCo3NpZ8RAMK7zGKwk9/+G73oKdIKKQnXWxpgyZg0Dwy4j3Lac1Ab0Klenpm9IH1x7Vo8LIC3DGddXwzeMMVXa8rdP24kzBahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIOfXTroA3oeuDCJpzFIEL6gtkM6qWg4Nk5WUf/vZIT91o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/shioyama
+
+==================================================================
