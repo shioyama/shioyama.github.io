@@ -30,10 +30,10 @@ out](/speaking#the-elusive-attribute)). I am also open to languages
 and frameworks outside my daily technology stack, and to roles other than
 software engineer, for example product evangelist.
 
-I am available for fixed-term or recurring contract work. I am located in Tokyo
-and may be available here for on-site consulting, but generally I work
-remote. I can join a team, work independently, or collaborate across groups
-or between companies.
+I am available for fixed-term or recurring contract work. I am currently
+in Tokyo and may be available for initial on-site consulting, but generally I
+work remote. I can join a team, work independently, or collaborate across
+groups or between companies.
 
 ### What I can do for you
 
