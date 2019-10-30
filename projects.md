@@ -37,3 +37,17 @@ evaluate the query block. That's really all there is to it.
 
 For a more detailed explanation of the implementation, see this [blog
 post](https://dejimata.com/2018/5/30/arel-with-wharel).
+
+### Invisible
+
+Say you want to override some methods from a gem so you can add some
+instrumentation (measure performance or something). If you're not careful, you
+may change the "visibility" of those methods: a method was originally private,
+but your override makes it public. This is not ideal and can lead to subtle bugs.
+
+[Invisible](https://github.com/shioyama/invisible) solves this problem. Simply
+extend a module with `Invisible`, define your methods, and Invisible will take
+care of ensuring that when you include (or prepend) the module somewhere, any
+methods it overrides will keep their original visibility. Invisible does this
+in just ten lines of code, [check it
+out for yourself](https://github.com/shioyama/invisible/blob/master/lib/invisible.rb).
