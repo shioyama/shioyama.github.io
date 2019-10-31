@@ -49,5 +49,5 @@ but your override makes it public. This is not ideal and can lead to subtle bugs
 extend a module with `Invisible`, define your methods, and Invisible will take
 care of ensuring that when you include (or prepend) the module somewhere, any
 methods it overrides will keep their original visibility. Invisible does this
-in just ten lines of code, [check it
+in just a dozen lines of code, [check it
 out for yourself](https://github.com/shioyama/invisible/blob/master/lib/invisible.rb).
