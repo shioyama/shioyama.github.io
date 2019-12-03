@@ -2,14 +2,15 @@
 layout: home
 ---
 
-**Freelance programmer, writer and speaker experienced in building
-and maintaining complex web applications for the Japanese market.** I'm the
-author of [Mobility](https://github.com/shioyama/mobility), a
-Ruby gem for managing model translations, and an active contributor to many
-open-source projects including Ruby on Rails.
+**Programmer, writer and speaker experienced in building and maintaining
+complex web applications for the Japanese market.** I'm the author of
+[Mobility](https://github.com/shioyama/mobility), a Ruby gem for managing model
+translations, and an active contributor to many other open-source projects
+including Ruby on Rails.
 
-I'm always on the lookout for new challenges. [Here's what I can do for
-you](/about).
+I currently spend my days tackling the challenges of
+international growth at [Shopify](https://www.shopify.com), the world's most
+advanced ecommerce platform. [Learn more about me.](/about)
 
 ## Recent
 
