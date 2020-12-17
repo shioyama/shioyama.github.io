@@ -24,8 +24,9 @@ disseminating scientific discoveries to integrating legacy payment systems.
 The common thread linking these roles is the importance of clear communication
 to quality results.
 
-I currently spend my days tackling the challenges of international growth at
-[Shopify](https://www.shopify.com). I also contribute actively to many
+I currently spend my days developing the foundations for commerce
+as a member of the Code Foundations team at [Shopify](https://www.shopify.com).
+I also contribute actively to many
 open-source projects, including
 [Mobility](https://github.com/shioyama/mobility), a Ruby gem for translating
 model data (of which I am the author), and Ruby on Rails.

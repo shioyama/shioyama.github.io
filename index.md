@@ -8,9 +8,9 @@ complex web applications for the Japanese market.** I'm the author of
 translations, and an active contributor to many other open-source projects
 including Ruby on Rails.
 
-I currently spend my days tackling the challenges of
-international growth at [Shopify](https://www.shopify.com), the world's most
-advanced ecommerce platform. [Learn more about me.](/about)
+I currently spend my days developing the foundations for commerce
+as a member of the Code Foundations team at [Shopify](https://www.shopify.com).
+[Learn more about me.](/about)
 
 ## Recent
 
