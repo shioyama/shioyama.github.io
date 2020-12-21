@@ -29,7 +29,7 @@ as a member of the Code Foundations team at [Shopify](https://www.shopify.com).
 I also contribute actively to many
 open-source projects, including
 [Mobility](https://github.com/shioyama/mobility), a Ruby gem for translating
-model data (of which I am the author), and Ruby on Rails.
+model data, and Ruby on Rails.
 
 ### Specialties
 
