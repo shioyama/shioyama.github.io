@@ -9,8 +9,8 @@ translations, and an active contributor to many other open-source projects
 including Ruby on Rails.
 
 I currently spend my days developing the foundations for commerce
-as a member of the Code Foundations team at [Shopify](https://www.shopify.com).
-[Learn more about me.](/about)
+as a member of the Ruby and Rails Infrastructure team at
+[Shopify](https://www.shopify.com). [Learn more about me.](/about)
 
 ## Recent
 
