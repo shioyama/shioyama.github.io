@@ -1,3 +1,7 @@
+- date: 2022/05/17
+  title: Caching Without Marshal
+  details: Presentation at RailsConf 2022 in Portland
+  url: https://www.youtube.com/watch?v=T096iKLMBwQ
 - date: 2019/11/06
   title: Module Builder Pattern
   details: Guest episode on Ruby Tapas
@@ -10,7 +14,3 @@
   title: Building Generic Software
   details: Presentation at RubyConf 2018 in Los Angeles
   url: https://www.youtube.com/watch?v=RZkemV_-__A
-- date: 2018/08/24
-  title: Metaprogramming for Generalists
-  details: Presentation at EuRuKo 2018 in Vienna
-  url: https://www.youtube.com/watch?v=1fIlcnrJHxs
