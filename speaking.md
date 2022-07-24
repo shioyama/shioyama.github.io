@@ -43,6 +43,21 @@ understand.
 I'm available for speaking opportunities, [get in touch](mailto:{{ site.email }}) if you
 think I might fit the bill.
 
+### Caching Without Marshal <span class="side-note">@ RailsConf 2022</span> {#caching-without-marshal}
+
+Marshal is Ruby's ultimate sharp knife, able to transform any object into
+a binary blob and back. This makes it a natural match for the diverse needs of
+a cache, but with risks. <a
+href="https://railsconf.org/program/sessions#session-1360">In this talk</a>
+I pry open Marshal to show it works and how our team at Shopify replaced
+it with MessagePack, a safer, more compact binary serialization format.
+
+{% include presentation.html
+  title="Caching Without Marshal"
+  youtube-id="T096iKLMBwQ"
+  slides-url="https://speakerdeck.com/shioyama/caching-without-marshal"
+  slides-img="caching-without-marshal.png" %}
+
 ### The Elusive Attribute <span class="side-note">@ RailsConf 2019</span> {#the-elusive-attribute}
 
 Ruby on Rails is famous for its “magic”, but there is very little out there
