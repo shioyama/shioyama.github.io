@@ -1,3 +1,7 @@
+- date: 2022/11/11
+  title: Caching Without Marshal
+  details: Two-part series on the Shopify Engineering blog about migrating our cache from Marshal to MessagePack.
+  url: https://shopify.engineering/caching-without-marshal-part-one
 - date: 2018/5/30
   title: Arel with Wharel
   details: Introduces <a href="https://github.com/shioyama/wharel" target="_blank">Wharel</a>, a tiny little gem that uses the empty room pattern to make Arel queries easier to build.

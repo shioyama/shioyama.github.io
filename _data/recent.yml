@@ -1,5 +1,9 @@
+- date: 2022/11/11
+  title: Caching Without Marshal (Shopify Engineering blog)
+  details: Two-part blog series on migrating the cache on Shopify's monolith from Marshal to MessagePack
+  url: https://shopify.engineering/caching-without-marshal-part-one
 - date: 2022/05/17
-  title: Caching Without Marshal
+  title: Caching Without Marshal (RailsConf talk)
   details: Presentation at RailsConf 2022 in Portland
   url: https://www.youtube.com/watch?v=T096iKLMBwQ
 - date: 2019/11/06
@@ -10,7 +14,3 @@
   title: The Elusive Attribute
   details: Presentation at RailsConf 2019 in Minneapolis
   url: https://www.youtube.com/watch?v=PNNrmNTQx2s
-- date: 2018/11/15
-  title: Building Generic Software
-  details: Presentation at RubyConf 2018 in Los Angeles
-  url: https://www.youtube.com/watch?v=RZkemV_-__A
